@@ -1,0 +1,70 @@
+:root {
+    background-color: blanchedalmond;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    border-color: darkcyan;
+    border-style: solid;
+    height: 1%;
+}
+
+legend {
+    text-align: center;
+    font-size: 2rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+input {
+    margin: auto 44%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    background-color: blanchedalmond;
+}
+
+input:focus {
+    background-color: blanchedalmond;
+    transform: scale(1.2);
+}
+
+input[type="radio"] {
+    display: block;
+    margin: 0.5rem auto;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+select {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.submit {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 2rem;
+    border-radius: 10%;
+    background-color: cornsilk;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    cursor: pointer;
+    transition: transform 300ms;
+    transition-delay: transform 200ms;
+}
+
+.submit:hover {
+    background-color: darkcyan;
+    transform: scale(1.2)
+}
